@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background: yellow;
+    height: 100vh;
+}
+
+.flex-item{
+    background: green;
+}
