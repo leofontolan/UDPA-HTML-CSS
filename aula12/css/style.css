@@ -1,0 +1,24 @@
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+}
+
+.caixa-interna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.caixa-redonda{
+    background-color: burlywood;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
