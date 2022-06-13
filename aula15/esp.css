@@ -1,0 +1,15 @@
+/*
+ID
+*/
+
+#paragrafo-id{
+    background: blue;
+}
+
+.paragrafo-class{
+    background: red;
+}
+
+p{
+    background: green;
+}
