@@ -8,6 +8,6 @@ div{
     margin-left: 10px;
 }
 
-.pai .filha {
+.pai + .filha {
     color: blue;
 }
