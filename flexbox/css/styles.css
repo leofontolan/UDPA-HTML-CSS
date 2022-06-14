@@ -7,13 +7,16 @@
 .flex-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 30px;
 
     background: yellow;
     height: 100vh;
 }
 
 .flex-item{
+    width: 100%;
     background: green;
+    margin: 10px;
 }
