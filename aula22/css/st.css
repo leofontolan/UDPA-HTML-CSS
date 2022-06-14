@@ -26,3 +26,27 @@
     height: 100%;
     background: red;
 }
+
+@media all and (max-width: 320px) {
+    .grid .col {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 768px) {
+    .grid .col {
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+    .grid .col {
+        width: 33.33%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .grid .col {
+        width: 25%;
+    }
+}
