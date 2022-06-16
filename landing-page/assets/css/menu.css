@@ -53,3 +53,7 @@
 .menu h1 a{
     color: var(--primary-color);
 }
+
+.menu-spacing{
+    height: 6.5rem;   
+}
