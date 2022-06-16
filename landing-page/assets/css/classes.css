@@ -14,7 +14,7 @@
     max-width: 120rem;
     margin: 0 auto;
     padding: 0 var(--gap);
-    padding-top: 6rem;
+    padding: 8rem var(--gap);
 }
 
 .section{
