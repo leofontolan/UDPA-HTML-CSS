@@ -17,3 +17,13 @@
     max-width: 85%;
     height: auto;
 }
+
+.top3-content{
+    display: flex;
+    max-width: 64rem;
+    flex-flow: column wrap;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 11rem;
+}
