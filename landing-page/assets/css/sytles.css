@@ -125,3 +125,7 @@
     background: var(--white-color);
     color: var(--primary-color);
 }
+
+.footer{
+    text-align: center;
+}
