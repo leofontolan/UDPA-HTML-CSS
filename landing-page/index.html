@@ -23,13 +23,16 @@
 
 <body>
 
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close Menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1>
-                <a href="#home">LOGO</a>
+                <a  onclick="getElementById('close-menu').checked = false" href="#home">LOGO</a>
             </h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false">
                     <li><a href="#intro">intro</a></li>
                     <li><a href="#grid-one">Grid One</a></li>
                     <li><a href="#gallery">Gallery</a></li>
@@ -290,11 +293,6 @@
                 <p>
                     Firefox 85 is a new version of Firefox, the open-source web browser. It is the first release of the
                     Firefox
-                    series, and is the first major release of the browser.
-                    Today, Firefox 85 is the first release of the Firefox series to be released in the year 2019.
-                    More than a year after its predecessor, Firefox 84, Firefox 85 is the first release of the Firefox
-                    series to
-                    and the first major release of the browser.
                 </p>
             </div>
             <div class="intro-img">
