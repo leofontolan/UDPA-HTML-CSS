@@ -121,4 +121,56 @@ a {
 
 .menu-content ul li a{
     color: var(--primary-color);
+    position: relative;
+    
 }
+
+.menu-content ul li a::after{
+    content: '';
+    position: absolute;
+    transition: all 200ms ease-in-out;
+    top: 2.5rem;
+    left: 0;
+    height: 0.2rem;
+    width: 0;
+    background: var(--secondary-color);
+}
+
+.menu-content ul li a:hover::after{
+    height: 0.2rem;
+    width: 100%;
+    background: var(--secondary-color);
+}
+
+/* ================================================  Intro */
+
+.intro-content{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    min-height: 100vh;
+    text-align: left;
+}
+
+.intro-content h2{
+    font-size: 3.2rem;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+}
+
+.intro-content p{
+    margin-bottom: 2rem;
+}
+
+.intro-content-text, .intro-img{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-img img{
+    padding: 2.5rem;
+    max-width: 100%;
+    height: 60%;
+}
+
