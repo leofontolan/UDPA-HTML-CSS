@@ -22,7 +22,7 @@ html{
 body{
     font-family: 'Anek Latin', sans-serif;
     color: var(--primary-color);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: 1.5;
 }
 
@@ -58,6 +58,10 @@ h5{
 
 h6{
     font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -106,59 +110,6 @@ h6{
     text-decoration: none;
     padding: 1.6rem;
     color: var(--primary-color);
-}
-
-.menu-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.6rem;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .menu{
-    background: var(--white-color);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    border-bottom: 0.1rem solid var(--light-gray-color);
-}
-
-.menu-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.menu ul {
-    list-style: none;
-    display: flex;
-}
-
-.menu ul li a{
-    display: block;
-    padding: 2rem;
-    font-size: 1.8rem;
-    color: var(--primary-color);
     position: relative;
 }
 
@@ -174,18 +125,32 @@ h6{
 }
 
 .menu ul li a:hover::after{
-    width: 50%;
-    left: 25%;
+    width: 70%;
+    left: 15%;
 }
 
-.menu h1{
-    font-size: 2.3rem;
+
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
 }
 
 .menu h1 a{
     color: var(--primary-color);
 }
 
-a{
-    text-decoration: none;
-} */
+.menu-spacing{
+    height: 3rem;   
+}
+
+/* =============================================================> INTRO */ 
+.intro-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
