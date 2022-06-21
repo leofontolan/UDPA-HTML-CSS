@@ -1,3 +1,4 @@
+/* ================================================  Variáveis */
 :root{
 	--primary-color: #0A1128;
     --secondary-color: crimson;
@@ -6,7 +7,7 @@
     --gap: 3rem
 }
 
-
+/* ================================================  Elementos */
 *{
     margin: 0;
     padding: 0;
@@ -64,93 +65,4 @@ a {
     text-decoration: none;
 }
 
-
-.main-bg{
-    background-image: url('../img/bg-main.svg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: var(--white-color);
-}
-
-.white-bg{
-    color: var(--primary-color);
-}
-
-
-.content-width{
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: 8rem var(--gap);
-}
-
-.content-height{
-    min-height: 100vh;
-}
-
-/* =============================================================> MENU */
-
-.menu{
-    position: fixed;
-    width: 100%;
-    background: var(--white-color);
-    border-bottom: 2px solid var(--light-gray-color);
-}
-
-.menu h1{
-    font-size: 3rem;
-    padding: 0px;
-}
-
-.menu ul li{
-    display: inline-block;
-}
-
-.menu ul li a{
-    text-decoration: none;
-    padding: 1.6rem;
-    color: var(--primary-color);
-    position: relative;
-}
-
-.menu ul li a::after{
-    content: '';
-    position: absolute;
-    bottom: 1rem;
-    left: 50%;
-    width: 0;
-    height: 0.2rem;
-    background: var(--secondary-color);
-    transition: all 300ms ease-in-out;
-}
-
-.menu ul li a:hover::after{
-    width: 70%;
-    left: 15%;
-}
-
-
-.menu-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.6rem;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
-}
-
-.menu h1 a{
-    color: var(--primary-color);
-}
-
-.menu-spacing{
-    height: 3rem;   
-}
-
-/* =============================================================> INTRO */ 
-.intro-content{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-}
+/* ================================================  Classes */
