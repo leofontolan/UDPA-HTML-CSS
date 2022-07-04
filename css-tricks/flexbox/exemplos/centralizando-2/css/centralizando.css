@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    height: 100vh;
+    /* Primeiro criarmos um contexto para o layout flex */
+    /* We first create a flex layout context */
+    display: flex;
+  
+    /* Então definimos a direção do fluxo
+        e se permitirmos que os itens sejam agrupados
+      * Lembre-se que é o mesmo que:
+      * flex-direction: row;
+      * flex-wrap: wrap;
+      */
+    flex-flow: row no-wrap;
+  
+    /* Depois definimos como é distribuído o espaço restante */
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px 20px; /* row-gap column gap */
+}
+
+
+  .flex-child{
+    width: 100%;
+    background: rebeccapurple;
+  }
