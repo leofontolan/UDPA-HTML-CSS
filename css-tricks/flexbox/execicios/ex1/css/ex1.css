@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-section{
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+
+.flex-container{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 1000px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px 20px;
+}
+
+.flex-container div{
+    
+    width: 100px;
+    background-color: greenyellow;
+    line-height: 100px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.flex-container div:nth-child(1){
+    order: 4;
+    align-self: flex-end
+    
+}
+.flex-container div:nth-child(2){
+    order: 2;
+}
+.flex-container div:nth-child(3){
+    order: 8;
+}
+.flex-container div:nth-child(4){
+    order: 3;
+}
+.flex-container div:nth-child(5){
+    order: 5;
+}
+.flex-container div:nth-child(6){
+    order: 7;
+}
+.flex-container div:nth-child(7){
+    order: 10;
+}
+.flex-container div:nth-child(8){
+    order: 6;
+}
+.flex-container div:nth-child(9){
+    order: 1;
+}
+.flex-container div:nth-child(10){
+    order: 9;
+}
