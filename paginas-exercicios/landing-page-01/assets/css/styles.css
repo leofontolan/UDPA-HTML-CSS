@@ -1,3 +1,11 @@
+/* Variáveis das cores */
+:root{
+    --primary-color: #0A1128;
+    --secondary-color: rgb(220, 20, 60);
+    --white-color: #ffffff;
+}
+
+
 /* Zerar CSS */
 * {
   margin: 0;
@@ -44,4 +52,28 @@ h5{
 
 h6{
     font-size: 3.5rem;
+}
+
+
+/* Classes */
+
+.main-bg{
+    background-image: url('../img/background-section.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color)
+}
+
+.white-bg{
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.main-content{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.section{
+    min-height: 100vh;
 }
