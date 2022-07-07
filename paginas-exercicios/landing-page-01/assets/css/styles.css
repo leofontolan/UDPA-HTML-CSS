@@ -3,6 +3,7 @@
     --primary-color: #0A1128;
     --secondary-color: rgb(220, 20, 60);
     --white-color: #ffffff;
+    --light-gray-color: #eeeeee;
     --gap: 3rem;
 }
 
@@ -89,7 +90,10 @@ a{
     background: var(--white-color);
     position: fixed;
     width: 100%;
+    border-bottom: 2px solid var(--light-gray-color);
 }
+
+
 
 .menu ul{
     display: flex;
@@ -97,10 +101,30 @@ a{
 }
 
 .menu ul li a{
+    position: relative;
     display: block;
     padding: 2rem;
     font-size: 1.6rem;
 }
+
+.menu ul li a::after{
+    content: "";
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    width: 0%;
+    height: 0.2rem;
+    background: var(--secondary-color);
+    transition: all 300ms ease-in-out;
+}
+
+.menu ul li a:hover::after{
+    left: 25%;
+    width: 50%;
+
+}
+
+
 
 .menu h1{
     font-size: 2.3rem;
@@ -119,4 +143,6 @@ a{
     padding-bottom: 0px;
     padding-top: 0px;
 }
+
+
 
