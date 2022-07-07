@@ -3,6 +3,7 @@
     --primary-color: #0A1128;
     --secondary-color: rgb(220, 20, 60);
     --white-color: #ffffff;
+    --gap: 3rem;
 }
 
 
@@ -54,8 +55,12 @@ h6{
     font-size: 3.5rem;
 }
 
+a{
+    text-decoration: none;
+}
 
-/* Classes */
+
+/* Classes Estrutura*/
 
 .main-bg{
     background-image: url('../img/background-section.svg');
@@ -72,8 +77,46 @@ h6{
 .main-content{
     max-width: 120rem;
     margin: 0 auto;
+    padding: var(--gap);
 }
 
 .section{
     min-height: 100vh;
 }
+
+/* Classes do Menu */
+.menu{
+    background: var(--white-color);
+    position: fixed;
+    width: 100%;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 2rem;
+    font-size: 1.6rem;
+}
+
+.menu h1{
+    font-size: 2.3rem;
+    color: var(--primary-color);
+}
+
+.menu h1 a{
+    color: inherit;
+}
+
+
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
