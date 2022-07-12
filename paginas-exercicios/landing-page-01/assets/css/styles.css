@@ -87,10 +87,9 @@ a{
 
 /* Classes do Menu */
 .menu{
-    background: var(--white-color);
     position: fixed;
     width: 100%;
-    border-bottom: 2px solid var(--light-gray-color);
+    border-bottom: 0.2rem solid var(--light-gray-color);
 }
 
 
@@ -145,4 +144,15 @@ a{
 }
 
 
+.menu-spacing{
+    height: 6.5rem;
+}
 
+
+/* Seção Intro */
+.intro-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+    height: 100vh;
+}
