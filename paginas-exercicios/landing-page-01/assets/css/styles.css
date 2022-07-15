@@ -190,3 +190,40 @@ p{
     height: 100vh;
     text-align: center;
 }
+
+/* Seção Grid */
+.grid-one-content{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+}
+
+.grid-description{
+    margin-bottom: 6rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
+    counter-reset: grid-counter;
+}
+
+.grid h3{
+    font-size: 3rem;
+    position: relative;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+}
+
+.grid h3::before{
+    counter-increment: grid-counter;
+    content: counter(grid-counter);
+    position: absolute;
+    font-style: italic;
+    font-size: 6rem;
+    top: -2rem;
+    left: 0;
+    transform: rotate(5deg);
+}
