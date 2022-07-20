@@ -225,3 +225,20 @@ p {
   left: 0;
   transform: rotate(5deg);
 }
+
+/* Seção Gallery */
+.gallery-img {
+  width: 100%;
+  max-width: 36rem;
+  max-height: 36rem;
+  overflow: hidden;
+}
+
+.gallery-img img {
+  transition: all 300ms ease-in-out;
+}
+
+.gallery-img img:hover {
+  transform: scale(1.1);
+  rotate: 5deg;
+}
