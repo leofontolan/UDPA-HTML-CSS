@@ -286,3 +286,49 @@ tfoot td, table th {
   flex-wrap: wrap;
   gap: var(--gap);
 }
+
+.form-grid legend{
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+
+.form-group{
+  flex: 1 1 32rem;
+}
+
+.form-group label{
+  display: block;
+}
+
+.form-group input, .form-group textarea{
+  width: 100%;
+  border: 0.1rem solid var(--light-gray-color);
+  padding: 1rem;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+}
+
+
+body .full-width{
+  width: 100%;
+  flex: 1 1 100%;
+}
+
+
+.form-group button{
+  border: 0.5rem solid var(--white-color);
+  background: none;
+  color: var(--white-color);
+  padding: 1.5rem 2rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.form-group button:hover{
+  border: 0.5rem solid var(--white-color);
+  background: var(--white-color);
+  color: var(--primary-color);
+}
