@@ -272,3 +272,13 @@ table td, table th {
 tfoot td, table th {
   background: var(--light-gray-color);
 }
+
+
+/* Seção de Formulário */
+.contact-form{
+  grid-column: span 2;
+}
+
+.contact-form fieldset{
+  border: none;
+}
