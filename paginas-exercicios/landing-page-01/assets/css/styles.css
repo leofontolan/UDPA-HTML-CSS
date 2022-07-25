@@ -279,6 +279,10 @@ tfoot td, table th {
   grid-column: span 2;
 }
 
-.contact-form fieldset{
+.contact-form .form-grid{
   border: none;
+  display: flex;
+  flex-direction: row ; 
+  flex-wrap: wrap;
+  gap: var(--gap);
 }
