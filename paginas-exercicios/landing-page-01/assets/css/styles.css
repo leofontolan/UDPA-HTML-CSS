@@ -332,3 +332,18 @@ body .full-width{
   background: var(--white-color);
   color: var(--primary-color);
 }
+
+.footer{
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.footer p {
+  margin: 0;
+  padding: 3rem 0;
+}
+
+.heart{
+  color: var(--secondary-color);
+  font-size: 2rem;
+}
