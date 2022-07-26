@@ -347,3 +347,16 @@ body .full-width{
   color: var(--secondary-color);
   font-size: 2rem;
 }
+
+/* Media Queries 800px */
+@media (max-width: 800px){
+
+  /* Quebras as Seção Intro em apenas uma coluna */
+  .intro-content {
+    grid-template-columns: 1fr;
+  }
+
+  .grid{
+    grid-template-columns: 1fr;
+  }
+}
